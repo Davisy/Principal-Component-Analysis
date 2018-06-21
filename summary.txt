@@ -1,18 +1,18 @@
-# Principal Component Analysis
 Principal Component Analysis (PCA) is a simple yet popular and useful linear transformation technique that is used in numerous applications, such as stock market predictions, the analysis of gene expression data, and many more.
 
 The sheer size of data in the modern age is not only a challenge for computer hardware but also a main bottleneck for the performance of many machine learning algorithms. The main goal of a PCA analysis is to identify patterns in data; PCA aims to detect the correlation between variables. If a strong correlation between variables exists, the attempt to reduce the dimensionality only makes sense. In a nutshell, this is what PCA is all about: Finding the directions of maximum variance in high-dimensional data and project it onto a smaller dimensional subspace while retaining most of the information.
 
-### Main Areas you can use PCA.
+Main Areas you can use PCA.
 1.A more common way of speeding up a machine learning algorithm
 2.for data visualization.
 3.If memory or disk space is limited, PCA allows you to save space in exchange for losing a little of the data's information. This can be a reasonable tradeoff.
 
-### Limitations of PCA
+Limitations of PCA
 1.Linearity : PCA assumes that the principle components are a linear combination of the original features. If this is not true, PCA will not give you sensible results.
 2.Large variance implies more structure : PCA uses variance as the measure of how important a particular dimension is. So, high variance axes are treated as principle components, while low variance axes are treated as noise.
 3.Orthogonality : PCA assumes that the principle components are orthogonal.
 
 
-#### RESOURCES:
+RESOURCES:
 1.https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60
+2.
